@@ -41,6 +41,7 @@ function App() {
       const random = await requestRandomness(chainId);
       // Once requestRandomness completes, querySecret is executed
       const query = await querySecret();
+      alert("Your random number is: " + query)
 
     } catch (error) {
       // Catch and log any errors that occur during the process
@@ -48,7 +49,6 @@ function App() {
     }
   }
 
-  querySecret();
   return (
     <div className="flex justify-center items-center h-screen bg-gray-800">
     <div >
