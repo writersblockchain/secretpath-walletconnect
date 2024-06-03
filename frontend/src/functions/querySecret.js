@@ -8,8 +8,8 @@ export const querySecret = async () => {
 
     try {
       const query_tx = await secretjs.query.compute.queryContract({
-        contract_address: "secret1aawazragzd7zlmn3ym09wuryhxn54x2846gd2v",
-        code_hash: "4f4054beb60d13c1fceece7be3ea7c349e46b70c1fbbf2517f713180d6033c84",
+        contract_address: "secret1dfzs2sjqdm33sqk2duahqpp7whnh62u4lrn9jj",
+        code_hash: "3cb5c235600ddf3d024e4d9b96d5e2c7bfafbbdea5f6c1866aa968a59cc27bfa",
         query: { retrieve_random: {} },
       })
 

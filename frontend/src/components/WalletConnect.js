@@ -29,67 +29,70 @@ const metadata = {
       
       createWeb3Modal({
         chainImages: {
-             // Arbitrum Mainnet
-             42161: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
-             // Linea Mainnet
-             59144: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
-         
-             //Scroll Mainnet
-             534352: "https://scrollscan.com/images/svg/brands/main.svg?v=24.4.3.0",
-         
-             // Metis Mainnet
-             1088: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
-         
-             //Sepolia Testnet
-             11155111:
-               "https://sepolia.etherscan.io/images/svg/brands/ethereum-original.svg",
-         
-             // Scroll Testnet
-             534351: "https://scrollscan.com/images/svg/brands/main.svg?v=24.4.3.0",
-         
-             // Polygon Amoy Testnet
-             80002:
-               "https://assets-global.website-files.com/637e2b6d602973ea0941d482/63e26c8a3f6e812d91a7aa3d_Polygon-New-Logo.png",
-         
-             // Optimism Testnet
-             11155420:
-               "https://optimistic.etherscan.io/assets/optimism/images/svg/logos/chain-light.svg?v=24.4.4.4",
-         
-             // Arbitrum Testnet
-             421614: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
-         
-             // Base Sepolia Testnet
-             84532: "https://basescan.org/images/svg/brands/main.svg?v=24.4.4.9",
-         
-             // Berachain Testnet
-             80085:
-               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-tjg8Kqgr76Ved6PbcjBoGCHWwnhDUljH-CziyBOzw&s",
-         
-             // Etherlink Testnet
-             128123: "https://www.etherlink.com/favicon.ico",
-         
-             //Metis Sepolia Testnet
-             59902: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
-         
-             // Near Aurora Testnet
-             1313161555:
-               "https://play-lh.googleusercontent.com/0zJGaaodqDL--ig2W2h60zp5uLMexQs4_PRlon5qhakSwqsdwa_ZmV9DQKvg1WVnn-w=w240-h480-rw",
-         
-             // Linea Testnet
-             59141: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
-         
-             // XDC Apothem
-             51: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
-         
-             // XDC Mainnet
-             50: "https://miro.medium.com/v2/resize:fit:1200/1*CyR7XMIw_iMEGKsA_MoxwA.png",
-         
-             //Lisk Sepolia
-             4202: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRan6D0dfiYmx2sv4kUPsFkfUDxYUWEuuA_dLJWgPm8Q&s",
-         
-              // Fhenix Testnet
-              42069: "https://media.licdn.com/dms/image/D4D0BAQFtUjFKqv_DJA/company-logo_200_200/0/1695715998703/fhenix_logo?e=2147483647&v=beta&t=U2cvAqKuWeEqE5Cb4HgyuBmVTUcBuZvsDi0JdivU3nw",
-        },
+          // Arbitrum Mainnet
+          42161: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
+          // Linea Mainnet
+          59144: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
+        
+          //Scroll Mainnet
+          534352: "https://scrollecosystem.io/images/banner_logo.png",
+        
+          // Metis Mainnet
+          1088: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
+        
+          //Sepolia Testnet
+          11155111:
+            "https://moralis.io/wp-content/uploads/web3wiki/159-goerli/637aee14aa9d9f521437ec16_hYC2y965v3QD7fEoVvutzGbJzVGLSOk6RZPwEQWcA_E.jpeg",
+        
+          // Scroll Testnet
+          534351: "https://scrollecosystem.io/images/banner_logo.png",
+        
+          // Polygon Amoy Testnet
+          80002:
+            "https://assets-global.website-files.com/637e2b6d602973ea0941d482/63e26c8a3f6e812d91a7aa3d_Polygon-New-Logo.png",
+        
+          // Optimism Testnet
+          11155420:
+            "https://optimistic.etherscan.io/assets/optimism/images/svg/logos/chain-light.svg?v=24.4.4.4",
+        
+          // Arbitrum Testnet
+          421614: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
+        
+          // Base Sepolia Testnet
+          84532: "https://basescan.org/images/svg/brands/main.svg?v=24.4.4.9",
+        
+          // Berachain Testnet
+          80085:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-tjg8Kqgr76Ved6PbcjBoGCHWwnhDUljH-CziyBOzw&s",
+        
+          // Etherlink Testnet
+          128123: "https://www.etherlink.com/favicon.ico",
+        
+          //Metis Sepolia Testnet
+          59902: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
+        
+          // Near Aurora Testnet
+          1313161555:
+            "https://play-lh.googleusercontent.com/0zJGaaodqDL--ig2W2h60zp5uLMexQs4_PRlon5qhakSwqsdwa_ZmV9DQKvg1WVnn-w=w240-h480-rw",
+        
+          // Linea Testnet
+          59141: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
+        
+          // XDC Testnet
+          51: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
+        
+          // XDC Mainnet
+          50: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
+        
+          //Lisk Sepolia
+          4202: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRan6D0dfiYmx2sv4kUPsFkfUDxYUWEuuA_dLJWgPm8Q&s",
+        
+           // Fhenix Testnet
+           42069: "https://media.licdn.com/dms/image/D4D0BAQFtUjFKqv_DJA/company-logo_200_200/0/1695715998703/fhenix_logo?e=2147483647&v=beta&t=U2cvAqKuWeEqE5Cb4HgyuBmVTUcBuZvsDi0JdivU3nw",
+        
+           // Kakarot Testnet
+           1802203764: "https://assets-global.website-files.com/6464a063474b57e2c4e03b61/64a20e2749d92613acf4fd1b_Logo%20dark.svg",
+        },        
         ethersConfig,
         chains: [
           mainnets.ethereumMainnet,
@@ -118,6 +121,7 @@ const metadata = {
           testnets.XDCApothemTestnet,
           testnets.liskSepoliaTestnet,
           testnets.FhenixTestnet,
+          testnets.KakarotTestnet,
         ],
         projectId,
         enableAnalytics: true, // Optional - defaults to your Cloud configuration
