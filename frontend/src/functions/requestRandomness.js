@@ -69,6 +69,24 @@ export const requestRandomness = async (chainId) => {
     if (chainId === "1088") {
       publicClientAddress = mainnet.publicClientAddressMetisMainnet
     }
+    if (chainId === "50") {
+      publicClientAddress = mainnet.publicClientAddressXDCMainnet
+    }
+    if (chainId === "1313161554") {
+      publicClientAddress = mainnet.publicClientAddressNearAuroraMainnet
+    }
+    if (chainId === "1135") {
+      publicClientAddress = mainnet.publicClientAddressLiskMainnet
+    }
+    if (chainId === "2016") {
+      publicClientAddress = mainnet.publicClientAddressMainnetzMainnet
+    }
+    if (chainId === "1285") {
+      publicClientAddress = mainnet.publicClientAddressMoonriverMainnet
+    }
+    if (chainId === "1284") {
+      publicClientAddress = mainnet.publicClientAddressMoonbeamMainnet
+    }
 
     if (chainId === "11155111") {
       publicClientAddress = testnet.publicClientAddressSepoliaTestnet
@@ -114,6 +132,16 @@ export const requestRandomness = async (chainId) => {
     if (chainId === "1802203764") {
       publicClientAddress = testnet.publicClientAddressKakarotTestnet
     }
+    if (chainId === "9768") {
+      publicClientAddress = testnet.publicClientAddressMainnetzTestnet
+    }
+    if (chainId === "1287") {
+      publicClientAddress = testnet.publicClientAddressMoonbaseAlphaTestnet
+    }
+    if (chainId === "8008135") {
+      publicClientAddress = testnet.publicClientAddressFhenixHeliumTestnet
+    }
+
 
     const callbackAddress = publicClientAddress.toLowerCase()
     console.log("callback address: ", callbackAddress)
@@ -168,6 +196,11 @@ export const requestRandomness = async (chainId) => {
     } 
 
     if (chainId === "128123") {
+      amountOfGas = gasFee.mul(callbackGasLimit).mul(1000).div(2);
+      my_gas = 15000000;
+    }
+
+    if (chainId === "1287") {
       amountOfGas = gasFee.mul(callbackGasLimit).mul(1000).div(2);
       my_gas = 15000000;
     }
