@@ -260,8 +260,8 @@ export const testnets = {
   MantleTestnet: {
     chainId: 5003,
     name: "Mantle Sepolia",
-    currency: "tETH",
-    explorerUrl: "https://5003.testnet.routescan.io",
+    currency: "MNT",
+    explorerUrl: "https://sepolia.mantlescan.xyz/",
     rpcUrl: "https://rpc.sepolia.mantle.xyz",
   },
 };
