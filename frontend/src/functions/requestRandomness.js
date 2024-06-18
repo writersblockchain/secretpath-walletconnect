@@ -87,6 +87,12 @@ export const requestRandomness = async (chainId) => {
     if (chainId === "1284") {
       publicClientAddress = mainnet.publicClientAddressMoonbeamMainnet
     }
+    if (chainId === "1116") {
+      publicClientAddress = mainnet.publicClientAddressCoreMainnet
+    }
+    if (chainId === "5000") {
+      publicClientAddress = mainnet.publicClientAddressMantleMainnet
+    }
 
     if (chainId === "11155111") {
       publicClientAddress = testnet.publicClientAddressSepoliaTestnet
@@ -141,6 +147,13 @@ export const requestRandomness = async (chainId) => {
     if (chainId === "8008135") {
       publicClientAddress = testnet.publicClientAddressFhenixHeliumTestnet
     }
+    if (chainId === "1115") {
+      publicClientAddress = testnet.publicClientAddressCoreTestnet
+    }
+    if (chainId === "5003") {
+      publicClientAddress = testnet.publicClientAddressMantleTestnet
+    }
+
 
 
     const callbackAddress = publicClientAddress.toLowerCase()
