@@ -1,5 +1,4 @@
 
-// Mainnet configurations
 export const mainnets = {
   ethereumMainnet: {
     chainId: 1,
@@ -127,7 +126,21 @@ MantleMainnet: {
     currency: "MNT",
     explorerUrl: "https://explorer.mantle.xyz",
     rpcUrl: "https://rpc.mantle.xyz",
-  }
+  },
+  SeiMainnet: {
+    chainId: 1329,
+    name: "Sei",
+    currency: "SEI",
+    explorerUrl: "https://seistream.app/",
+    rpcUrl: "https://sei-evm-rpc.stakeme.pro",
+  },
+GnosisMainnet: {
+    chainId: 100,
+    name: "Gnosis",
+    currency: "xDAI",
+    explorerUrl: "https://gnosisscan.io/",
+    rpcUrl: "https://rpc.ankr.com/gnosis",
+  },
 };
 // Testnet configurations
 export const testnets = {
@@ -264,4 +277,26 @@ export const testnets = {
     explorerUrl: "https://sepolia.mantlescan.xyz/",
     rpcUrl: "https://rpc.sepolia.mantle.xyz",
   },
+  GnosisChiadoTestnet: {
+    chainId: 10200,
+    name: "Gnosis Chiado Testnet",
+    currency: "XDAI",
+    explorerUrl: "https://gnosis-chiado.blockscout.com",
+    rpcUrl: "https://rpc.chiadochain.net",
+  },
+  SeiTestnet: {
+    chainId: 713715,
+    name: "Sei Devnet",
+    currency: "SEI",
+    explorerUrl: "https://seistream.app",
+    rpcUrl: "https://evm-rpc-arctic-1.sei-apis.com",
+  },
+  UbitTestnet: {
+    chainId: 44433,
+    name: "UBIT Testnet",
+    currency: "tUSC",
+    explorerUrl: "https://testnet.ubitscan.io/",
+    rpcUrl: "https://testnet-rpc.ubitscan.io/",
+  },
+
 };

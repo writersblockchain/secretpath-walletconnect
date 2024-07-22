@@ -24,6 +24,8 @@ export const mainnet = {
   publicClientAddressMoonbeamMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressCoreMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressMantleMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressSeiMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressGnosisMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
 };
 
 export const testnet = {
@@ -64,6 +66,12 @@ export const testnet = {
     publicClientAddressCoreTestnet:
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
     publicClientAddressMantleTestnet:
+    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+    publicClientAddressGnosisChiadoTestnet:
+    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+    publicClientAddressSeiTestnet:
+    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+    publicClientAddressUbitTestnet:
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
 
 };
