@@ -26,6 +26,8 @@ export const mainnet = {
   publicClientAddressMantleMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressSeiMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressGnosisMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressCronosMainnet: "0x59d8c9591db7179c5d592c5bcd42694021885afc",
+
 };
 
 export const testnet = {
@@ -72,6 +74,8 @@ export const testnet = {
     publicClientAddressSeiTestnet:
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
     publicClientAddressUbitTestnet:
+    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+    publicClientAddressCronosTestnet:
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
 
 };

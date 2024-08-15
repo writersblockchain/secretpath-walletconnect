@@ -1,4 +1,5 @@
 
+// Mainnet configurations
 export const mainnets = {
   ethereumMainnet: {
     chainId: 1,
@@ -141,6 +142,14 @@ GnosisMainnet: {
     explorerUrl: "https://gnosisscan.io/",
     rpcUrl: "https://rpc.ankr.com/gnosis",
   },
+  CronosMainnet: {
+    chainId: 25,
+    name: "Cronos Mainnet",
+    currency: "CRO",
+    explorerUrl: "https://cronoscan.com",
+    rpcUrl: "https://evm-cronos.crypto.org",
+  },
+
 };
 // Testnet configurations
 export const testnets = {
@@ -298,5 +307,13 @@ export const testnets = {
     explorerUrl: "https://testnet.ubitscan.io/",
     rpcUrl: "https://testnet-rpc.ubitscan.io/",
   },
+ CronosTestnet: {
+    chainId: 338,
+    name: "Cronos Testnet",
+    currency: "TCRO",
+    explorerUrl: "https://explorer.cronos.org/testnet",
+    rpcUrl: "https://evm-t3.cronos.org",
+  },
+
 
 };
