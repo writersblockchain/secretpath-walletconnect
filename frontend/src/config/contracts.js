@@ -27,6 +27,8 @@ export const mainnet = {
   publicClientAddressSeiMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressGnosisMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressCronosMainnet: "0x59d8c9591db7179c5d592c5bcd42694021885afc",
+  publicClientAddressCronosZkEvm: "0x81844Ffce07D2BD4729583a97a7931Fe94b652e5",
+  publicClientAddressZksyncEraMainnet: "0x81844Ffce07D2BD4729583a97a7931Fe94b652e5",
 
 };
 
@@ -77,5 +79,8 @@ export const testnet = {
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
     publicClientAddressCronosTestnet:
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-
+    publicClientAddressCronosZkEvmTestnet:
+    "0x3140D461c928381FdA7EFe13e0a4cDfC1B4eE540",
+    publicClientAddressZkSyncEraSepoliaTestnet:
+    "0xAaA666CE51E4c4dcB50781d4F84461e267392fC9",
 };
