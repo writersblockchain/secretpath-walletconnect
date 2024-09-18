@@ -255,7 +255,7 @@ export const testnets = {
     name: "Lisk Sepolia Testnet",
     currency: "ETH",
     explorerUrl: "https://sepolia-blockscout.lisk.com",
-    rpcUrl: "https://rpc.lisk-sepolia-testnet.gelato.digital",
+    rpcUrl: "https://rpc.sepolia-api.lisk.com",
   },
   KakarotTestnet: {
     chainId: 1802203764,
