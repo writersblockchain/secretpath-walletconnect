@@ -2,7 +2,7 @@ import { SecretNetworkClient } from "secretjs"
 
 export const querySecret = async () => {
     const secretjs = new SecretNetworkClient({
-      url: "https://lcd.testnet.secretsaturn.net",
+      url: "https://pulsar.lcd.secretnodes.com",
       chainId: "pulsar-3",
     })
 
